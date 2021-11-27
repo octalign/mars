@@ -22,7 +22,11 @@
 		"git.enableCommitSigning": true,
 		"editor.codeActionsOnSave": {
 			"source.fixAll.markdownlint": true
-		}
+		},
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.encoding": "utf8"
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
@@ -36,7 +40,8 @@
 		"github.copilot",
 		"eg2.vscode-npm-script",
 		"orta.vscode-jest",
-		"davidanson.vscode-markdownlint"
+		"davidanson.vscode-markdownlint",
+		"editorconfig.editorconfig"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
