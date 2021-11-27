@@ -19,7 +19,10 @@
 			"username": "postgres",
 			"password": "postgres"
 		}],
-		"git.enableCommitSigning": true
+		"git.enableCommitSigning": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.markdownlint": true
+		}
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
@@ -32,7 +35,8 @@
 		"esbenp.prettier-vscode",
 		"github.copilot",
 		"eg2.vscode-npm-script",
-		"orta.vscode-jest"
+		"orta.vscode-jest",
+		"davidanson.vscode-markdownlint"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
