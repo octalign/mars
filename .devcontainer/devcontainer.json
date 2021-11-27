@@ -18,7 +18,8 @@
 			"database": "postgres",
 			"username": "postgres",
 			"password": "postgres"
-		}]
+		}],
+		"git.enableCommitSigning": true
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
