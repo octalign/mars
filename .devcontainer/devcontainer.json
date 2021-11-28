@@ -20,6 +20,7 @@
 			"password": "postgres"
 		}],
 		"git.enableCommitSigning": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
 		"editor.codeActionsOnSave": {
 			"source.fixAll.markdownlint": true
 		},
